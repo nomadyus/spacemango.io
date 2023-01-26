@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header'
 import Footer from '../Footer'
-import Container from '../Container';
+// import Container from '../Container';
 import './index.css';
 
 const LOADING_ANIMATION_DELAY = 2500;
@@ -11,7 +11,7 @@ class App extends React.Component {
     return <div className="w-100">
       <div className='flex vw-100 vh-100 space-bg'>
         <Header className="centered" />
-        <Container />
+        {/* <Container /> */}
       </div>
       <Footer />
     </div>;
